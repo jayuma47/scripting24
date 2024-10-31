@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+#header, #work, #contact{
+    background-color: #80A6A2;
+    display: grid;
+    text-align: center;
+}
+
+h1{
+    font-family: "Geologica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+p,li{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+}
+
+/* SKILLS */
+.skill { 
+    background-color: #80A6A2; 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+
+.html { 
+    width: 70%; 
+} 
+
+.photoshop { 
+    width: 90%; 
+} 
+
+.illustrator{
+    width: 80%;
+}
+
+.video{
+    width: 50%;
+}
+
+#contact a:link, a:visited{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
