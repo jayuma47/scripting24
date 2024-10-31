@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background-color: #7F0B00; color: white; font-family: "Merriweather", serif;
+    font-weight: 400;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    font-size: 25px;
+}
+.tagline{
+    font-size: 20px;
+}
+
+a:link, a:visited{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+a:hover{
+    color:#7F0B00;
+}
+
+/* Navigation */
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #400500;
+    padding: 0px;
+    margin: 0px 200px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    background-color: #692a24;
+}
+
+.navbar li{
+    float: left;
+}
+
+/* Header Section */
+
+.head{
+    font-family: "Permanent Marker", system-ui;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+/* About */
+
+#about{
+    background: #4A2B22;
+    margin: 0px 200px;
+    padding: 0px ;
+}
+
+#about h2, #skills h2{
+    padding-left: 50px;
+}
+
+/*  Personality */
+
+#personality{
+    background: #400500;
+    margin: 0px 200px;
+    padding: 0px ;
+}
+
+#personality img {
+    padding-left: 300px;
+}
+
+#personality h2, #quotes h2{
+    text-align: right;
+    padding-right: 50px;
+}
+
+/* Skills and Abilities */
+
+#skills{
+    background: #4A2B22;
+    margin: 0px 200px;
+    padding: 0px ;
+}
+
+
+#skills img:nth-child(2){
+    padding: 20px;
+}
+
+/* Quotes */
+
+#quotes{
+    background: #400500;
+    margin: 0px 200px;
+    padding: 0px ;
+}
+
+#quotes img{
+    padding-left: 220px;
+}
+
+
+/* Reference */
+
+#reference{
+    background: #D4C598;
+    margin: 0px 200px;
+    padding: 0px 
+}
+
+#reference div.container{
+    text-align: center;
+    padding-left: 50px;
+}
+
+#reference ul.myUl{
+    display: inline-block;
+    text-align: left;
+}
+
+/* Footer */
+
+#footer{
+    background: rgb(49, 49, 49);
+    margin: -20px 200px;
+}
+
+#footer div.creator{
+    text-align: center;
+}
+
+#footer button.button{
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#footer button:hover{
+    background-color: #7F0B00;
+}
+
+
+
+ /* Asterisk for universal */
+* {
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
